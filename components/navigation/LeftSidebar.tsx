@@ -1,10 +1,9 @@
 import React from "react";
 import NavLinks from "./navbar/NavLinks";
-import { SheetClose } from "../ui/sheet";
-import { Button } from "../ui/button";
-import Link from "next/link";
-import Image from "next/image";
 import ROUTES from "@/constants/routes";
+import Link from "next/link";
+import { Button } from "../ui/button";
+import Image from "next/image";
 
 const LeftSidebar = () => {
   return (
